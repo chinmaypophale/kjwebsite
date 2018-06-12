@@ -38,10 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="services.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="storyline.html">StoryLine</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -50,7 +53,7 @@
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="contactus.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -69,8 +72,9 @@
     </header>
 
 	<!-- Articles -->
-
- <embed src="BMFTIRN.pdf"height="500" width="500">
+<!-- <section >
+ <embed src="BMFTIRN.pdf"height="100%" width="100%">
+ </section> -->
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -81,7 +85,41 @@
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
+
+        <!--   1st row-->
+
         <div class="row">
+          <!-- 1st article -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Why Mutual Funds?</h4>
+            <p class="text-muted">Explore</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Objectives of Mutual Funds</h4>
+            <p class="text-muted">Explore</p>
+          </div>
+        </div>
+
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -92,38 +130,14 @@
               <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>How to invest in Mutual Funds</h4>
+              <p class="text-muted">Explore</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
-            </div>
-          </div>
+
+
+
+
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
@@ -134,8 +148,8 @@
               <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>E-Mails from Mutual Funds</h4>
+              <p class="text-muted">Explore</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -148,8 +162,8 @@
               <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>What is NAV ?</h4>
+              <p class="text-muted">Explore</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -162,8 +176,8 @@
               <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>NAV</h4>
+              <p class="text-muted">Explore</p>
             </div>
           </div>
         </div>
@@ -705,7 +719,9 @@
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -718,14 +734,53 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">Why Mutual Funds?</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <pre>
+When you can invest in stocks or government securities on your own, you may
+feel that you don’t need professional help to manage such investments. You
+could be wrong. Investing in the markets is not simply choosing stocks and
+forgetting about them. The process becomes fairly complex when more than a
+couple of stocks and fixed-income securities are involved and almost impossible
+for any run-of-the-mill investor. With professionally managed Mutual Funds,
+you can be assured that your investments are managed by people with many
+years of experience with market analysis. They will have enough knowledge to
+take calls on buying and selling those stocks and other investments. You might
+not actually have that kind of knowledge or time to handle individual stock or
+fixed-income investments. Fund managers can easily identify laggards and
+prevent the portfolio from becoming stagnant due to underperformers. With
+Mutual Funds, you get:
+Right amount of diversification
+Mutual Funds allow you to diversify your investment across assets and asset
+classes, something that is very difficult to do on your own.
+Flexibility
+You are given options to pick any type of fund as per your risk profile, and
+bundle all of them into a single portfolio. Data about the performance of the
+funds is easily available for you to take those buy and sell calls.
+Professional managers
+The fund managers of Mutual Funds are usually highly experienced in their
+respective fields and will have years of experience handling different types of
+assets. And what’s more, you will be provided with the profile of your fund
+manager so that you know who’s actually handling your hard-earned money.
+Accessibility
+There’s nothing more convenient than a central database providing you with all
+the required information and even highlighting what’s best for you. This is
+possible through Mutual Funds.
+Liquidity
+Your Fixed Deposit may be offering decent returns with little option for
+liquidity, or the stock market may give you decent returns with easy liquidity
+and a high probability of losses. A Mutual Fund is a fine balance between the
+two offering you good returns while providing you with decent liquidity.
+Tax benefits
+There are tax benefits associated with Mutual Funds. You need to invest in
+Equity Linked Savings Schemes (ELSS) of Mutual Funds for the same.
+Here at Kaijing, we deliver solutions to help you build a better plan for you
+future. How do we do that? Reach u to know more.</pre>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: March 2017</li>
+                    <li>Topic: Finish</li>
+                    <li>Category: Educational</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -737,6 +792,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -752,14 +808,31 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">Mutual Fund objectives</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <pre>
+To invest in a Mutual Fund, you need to understand the types of Mutual Funds that are
+available to you. These include:
+ Equity: These are funds that invest exclusively in the stocks of domestic companies
+listed on stock exchanges. These are categorised as high-risk funds.
+ Money market: These are mainly meant for investors looking for easy liquidity and
+returns in the short-term. These funds invest in money market instruments such as
+Treasury bills (T-Bills), Commercial Papers (CPs), Repurchase Agreements (Repo)
+and government securities. These are categorised as low-risk funds.
+ Debt: These are funds that are considered as an alternative to Fixed Deposits. These
+funds invest in fixed-income securities. Debt funds are typically low-risk funds.
+ Hybrid or balanced: These funds invest in both fixed-income securities (debt) and
+stocks (equities), thereby offering a balanced portfolio to investors.
+Mutual Funds can also be categorised based on whether they are closed or open-ended.
+ Close-ended: These funds have fixed maturities and money cannot be withdrawn
+from them before maturity.
+ Open-ended: You can withdraw the investment in these funds at any point of time
+and get your money within a few days.</pre>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Topic: Explore</li>
+                    <li>Category: Educational</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -773,7 +846,9 @@
     </div>
 
     <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -783,17 +858,68 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-12 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">How to invest in Mutual Funds</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <pre>
+So, you know what Mutual Funds are and their associated costs. It’s time to know more about
+how to invest in them.
+Asset allocation
+The first thing here is to understand what kind of portfolio you need. Your funds will need to
+be divided between different asset classes to achieve the returns that you want. This is known
+as asset allocation. The ideal asset allocation route would help you to invest in a number of
+funds that are based on your risk profile. Your risk profile will also help determine the extent
+to which you should invest in each asset segment such as equity and debt.
+Your asset allocation should have a healthy mix of high-risk and low-risk components. The
+usual rule is that the percentage of funds you allocate to low-risk debt instruments should be
+equal to your age. For instance, if you are a 30 year old, then 30% of your fund allocation
+should go toward debt instruments. This will cushion you against any downturns due to
+investments in high-risk assets. This might be true when you are young but as you grow
+older, you must reduce your high-risk investments. A golden rule here is that the younger you
+are, the more you can invest in equities and other high-risk Mutual Funds. Up to a certain
+age, your risk profile can be moderately high as you have certain flexibilities to invest in
+high-risk, high-return funds without getting too worried about potential losses.
+Shortlisting fund types
+Shortlisting and zeroing in on the right funds represents the most important part of investing
+in Mutual Funds. Once you are done with the asset allocation that best reflects your needs,
+the next step is to look for and compare different Mutual Funds on the basis of their past
+performance and investment philosophy. For this, you should refer to the shareholder
+reports and prospectuses provided by AMCs. The prospectus will detail the information
+related to the Mutual Fund from a legal perspective while the shareholder report can help you
+understand the past performance and consistency of returns.
+Before investing in a fund, you should first be certain about what your ultimate financial
+goals are. Are you investing to substitute your current income or planning for retirement or
+are you looking to save for child’s marriage?
+Next, you need to determine what the horizon for these goals will be. The more money you
+need, the more risk you might need to take if you don’t have much time. You can afford to
+take lower risks if your goal is a long-term one. However, understand that when you invest in
+high-risk funds for the long term, the risks will become considerably lower as your goal
+nears. You should choose your Mutual Funds accordingly.
+Some Mutual Funds are open-ended while others are close-ended. In case of the latter, you
+won’t be able to liquidate the funds until the fund has matured. Therefore, you need to be
+careful about the time frame you’re investing for. In general, the shorter the period of
+investment, the lower the risks that you should take, while a higher time frame will help you
+overcome downturns in case of high-risk instruments.
+Finally, ensure that your risk profile is right. This may seem daunting but once you have
+charted out your future requirements and the time frame, you can find out what kind of risk
+profile you are comfortable with. Are you comfortable with the dynamics of the stock market
+and can you accept both ups and downs? Or are you looking for safe and assured bets that
+will meet your needs and still keep you safe? These depend on your personal outlook. If you
+aren’t comfortable with an asset class even though it’s aligned directly with your goals, you
+should drop that option.
+Tedious job, isn’t it? That is exactly why we do this for you! To know more contact us.</pre>
+
+<!--
+<object data="BMFTIRN.pdf" type="application/pdf" width="100%" height="100%">
+   <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="BMFTIRN.pdf">Download PDF</a>.</p>
+</object> -->
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Topic: How to invest in Mutual Funds</li>
+                    <li>Category: Educational</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -805,6 +931,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- Modal 4 -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
@@ -823,15 +950,35 @@
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Lot of you have been receiving mails from SEBI or other Mutual fund companies. The E-mails have words like &ldquo;re-categorization and reclassification&rdquo;, &ldquo;changes in fundamental attributes&rdquo; and &ldquo;expense ratio&rdquo; in their subject lines and contain information that is generally difficult to understand.</p>
+  <p><strong>Why are you getting these E-mails?</strong></p>
+  <p>Over the last few months, the regulator SEBI, brought in a number of rules aimed at making the life of an investor easier. The two relevant ones are:</p>
+  <ol>
+  <li>Reducing the number of funds and making them easier to understand &amp; compare: SEBI has listed key categories of mutual funds having clear definitions and asked the mutual fund companies to have no more than one fund under each category. There was no standard classification of mutual funds, so SEBI has listed a set of categories with clear definitions and asked mutual fund companies to map their funds to these categories. This will help investors easily understand the investment objective of a fund and also know which funds to compare it with. By forcing a mutual fund company to have only one fund for each category, this will also reduce the number of funds. A more detailed explanation is available in an earlier article.</li>
+  <li>Communicating changes in expense ratio to investors: SEBI believed that mutual fund companies were changing this key element without proper communication to investors. It has now become mandatory for mutual fund companies to inform investors by email or SMS if expense ratio changes.</li>
+  </ol>
+  <p><strong>So what do these emails contain?</strong></p>
+  <p>Most of the emails you get will correspond to the first reason above. They will inform you that in line with the SEBI directive:</p>
+  <ol>
+  <li>The name of a fund has changed</li>
+  <li>The investment objective of a fund has changed</li>
+  <li>A fund has merged into another</li>
+  </ol>
+  <p>These emails should stop within the next few weeks. However, the ones relating to expense ratio could become quite regular. <strong>I don&rsquo;t understand them. Should I ignore them?</strong></p>
+  <p>While change to the name of a fund is not material, changes to the investment objectives affect how your fund would perform in the future and how it will react to market changes. It may change whether or not the fund aligns to the purpose of your investment.</p>
+  <p>So, please do not ignore these emails. Take time to read them. If you don&rsquo;t understand them, please consult your advisor who should explain them to you.</p>
+  <p>Here, at Kaijing we work for you to keep you up to date with very simplistic explanation. To know more, contact us.</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Topic: Lines</li>
+                    <li>Category: Educational</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <button class="btn btn-primary" type="button_self" data-dismiss="modal" onclick="#contact">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
+                    Contact Us</button>
+                    <!-- <button class="btn btn-sprimary" data-dismiss="modal" type="button_self">
+                      <i class="fa fa-times"></i>
+                      Close Project</button> -->
                 </div>
               </div>
             </div>
@@ -860,8 +1007,8 @@
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Topic: Southwest</li>
+                    <li>Category: Educational</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -894,8 +1041,8 @@
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Topic: Window</li>
+                    <li>Category: Educational</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
