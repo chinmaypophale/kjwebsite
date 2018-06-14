@@ -182,6 +182,20 @@ header.masthead {
   background-size: cover;
 }
 
+header.thankyouhead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/thankyou.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* This is for thanks page */
+
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
@@ -224,6 +238,7 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
+/*                           */
 
 .service-heading {
   margin: 15px 0;
