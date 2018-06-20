@@ -247,7 +247,7 @@ header.masthead .intro-text .intro-heading {
   margin: 15px 0;
   text-transform: none;
 }
-
+/* yeh text hai */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -259,6 +259,7 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -275,7 +276,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
-
+/* + ka colour hai ye */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
@@ -289,11 +290,13 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
+
 }
 
 #portfolio .portfolio-item .portfolio-caption {
@@ -302,6 +305,7 @@ header.masthead .intro-text .intro-heading {
   padding: 25px;
   text-align: center;
   background-color: #fff;
+
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
