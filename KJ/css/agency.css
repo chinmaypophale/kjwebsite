@@ -234,9 +234,12 @@ header.masthead .intro-text .intro-heading {
 
 header.masthead .intro-text .intro-heading #sidbtn{
   border-radius: 10px;
+  opacity: 0.65;
+  
 }
 header.masthead .intro-text .intro-lead-in #sidbtn1{
   border-radius: 10px;
+  opacity: 0.65;
 }
 @media (min-width: 768px) {
   header.masthead .intro-text {
