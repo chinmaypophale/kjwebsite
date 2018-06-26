@@ -9,19 +9,18 @@
 
  		$name = mysqli_real_escape_string($conn,$_POST['name']);
 
-
  		$email = mysqli_real_escape_string($conn,$_POST['email']);
  		$phone = mysqli_real_escape_string($conn,$_POST['phone']);
- 		$message = mysqli_real_escape_string($conn,$_POST['message']);
 
 
 
- 	$sql = "INSERT INTO leadinfo (name,email,phone,message) VALUES ('$name', '$email','$phone','$message');";
+
+ 	$sql = "INSERT INTO leadinfo (name,email,phone) VALUES ('$name', '$email','$phone');";
  	mysqli_query($conn, $sql);
 
 
 
-	header("Location: thanks.html");
+	header("Location: calculator.html");
 
 
 	?>
