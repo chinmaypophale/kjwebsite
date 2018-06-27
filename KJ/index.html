@@ -2547,14 +2547,14 @@ $(document).ready(function() {
     let ask = Notification.requestPermission();
     ask.then(permission => {
       if (permission=="granted") {
-        let msg = new Notification("Title",{
-          body:"Hello World",
-          icon:"img/About.png"
+        let msg = new Notification("KAIJING",{
+          body:"We are the solution to all your investment related problem",
+          icon:"img/kaijing black.png"
         });
 
-        msg.addEventListener("click", event =>{
-          alert("Click Received");
-        });
+        // msg.addEventListener("click", event =>{
+        //   alert("Click Received");
+        // });
 
       }
     });

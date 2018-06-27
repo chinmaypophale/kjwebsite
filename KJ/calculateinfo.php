@@ -20,7 +20,7 @@
 
 
 
-	header("Location: calculator.html");
+	header("Location: calculator.php");
 
 
 	?>

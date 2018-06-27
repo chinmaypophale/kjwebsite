@@ -164,6 +164,24 @@
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
 
+<script type="text/javascript">
+  if ("Notification" in window){
+    let ask = Notification.requestPermission();
+    ask.then(permission => {
+      if (permission=="granted") {
+        let msg = new Notification("KAIJING",{
+          body:"We are the solution to all your investment related problem",
+          icon:"img/kaijing black.png"
+        });
+
+        // msg.addEventListener("click", event =>{
+        //   alert("Click Received");
+        // });
+
+      }
+    });
+  }
+</script>
 
 </body>
 

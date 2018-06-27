@@ -70,29 +70,28 @@
     </div>
   </nav>
 
+<!-- <script type="text/javascript">
+ function cal() {
 
-<script type="text/javascript">
-function cal() {
 
+    var capex1=document.getElementById("capex1");
+    var time1=document.getElementById("time1");
+    var sel1=document.getElementById("sel1");
+    var result = document.getElementById("result");
+    if(sel1==="Retirement"))
+    {
 
-   var capex1=document.getElementById("capex1");
-   var time1=document.getElementById("time1");
-   var sel1=document.getElementById("sel1");
-   var result = document.getElementById("result");
-   if(sel1==="Retirement"))
-   {
+      var myResult=capex1*Math.pow(1.10,time1);
+      // alert("Expense for "+ sel1 +" will be ="+myResult+" Rupees");
+      document.write("asdf");
+    }
+    else {
+      var myResult = capex1*Math.pow(1.08,time1);
+      alert("Expense for "+ sel1 +" will be ="+myResult+" Rupees");
+    }
+  };
 
-     var myResult=capex1*Math.pow(1.10,time1);
-     // alert("Expense for "+ sel1 +" will be ="+myResult+" Rupees");
-     document.write("asdf");
-   }
-   else {
-     var myResult = capex1*Math.pow(1.08,time1);
-     alert("Expense for "+ sel1 +" will be ="+myResult+" Rupees");
-   }
- };
-
-</script>
+</script> -->
 
 <section>
   <h2>&emsp;&emsp;&emsp;Want to plan your Finance...?</h2>
@@ -101,7 +100,9 @@ function cal() {
       <div class="col-md-5">
 
 
-<form name="sid" id="sid" method="POST" action="calculator.html">
+
+
+<form name="sid" id="sid" method="POST" action="">
 <!--
 <div class="form-group">
 <label for="email">Email:</label>
@@ -131,6 +132,26 @@ function cal() {
 
 </div>
 </form>
+
+
+        <?php
+
+        $capex1 = ($_POST['capex1']);
+        $time1 = ($_POST['time1']);
+        $sel1 =($_POST['sel1']);
+        if ($sel1=="Retirement") {
+          // code...
+
+        }
+        else {
+          $base=1.08;
+          // code...
+           $result=$capex1*pow($base,$time1);
+           echo $result;
+        }
+
+        ?>
+
 <div class="col-md-2">
 
 </div>
@@ -231,6 +252,25 @@ function cal() {
   <!-- <script src="Styling for EDU/vendor/jquery/jquery.min.js"></script>
   <script src="Styling for EDU/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
+
+  <script type="text/javascript">
+    if ("Notification" in window){
+      let ask = Notification.requestPermission();
+      ask.then(permission => {
+        if (permission=="granted") {
+          let msg = new Notification("KAIJING",{
+            body:"We are the solution to all your investment related problem",
+            icon:"img/kaijing black.png"
+          });
+
+          // msg.addEventListener("click", event =>{
+          //   alert("Click Received");
+          // });
+
+        }
+      });
+    }
+  </script>
 
   </body>
   </html>
