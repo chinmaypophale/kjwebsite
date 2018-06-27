@@ -2542,6 +2542,24 @@ $(document).ready(function() {
     </div>
 </div>
 
+<script type="text/javascript">
+  if ("Notification" in window){
+    let ask = Notification.requestPermission();
+    ask.then(permission => {
+      if (permission=="granted") {
+        let msg = new Notification("Title",{
+          body:"Hello World",
+          icon:"img/About.png"
+        });
+
+        msg.addEventListener("click", event =>{
+          alert("Click Received");
+        });
+
+      }
+    });
+  }
+</script>
 
   </body>
 
