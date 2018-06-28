@@ -2533,8 +2533,12 @@ $(document).ready(function() {
             <h2>Subscibe Our Newsletter</h2>
         </div>
         <div class="mpopup-main">
-            <p><input type="text" id="email" placeholder="Enter your email"/></p>
-            <p><input type="submit" value="SUBSCRIBE"/></p>
+            <form  action="index.php" method="post">
+              <div class="form-group">
+                <p><input type="email" id="email" placeholder="Enter your email" required/></p>
+                <p><input type="submit" value="SUBSCRIBE"/></p>
+              </div>
+            </form>
         </div>
         <!-- <div class="mpopup-foot">
             <p>created by Lisenme</p>
@@ -2542,6 +2546,28 @@ $(document).ready(function() {
     </div>
 </div>
 
+<?php
+
+ $server = "localhost";
+ $user = "root";
+ $pass = "";
+ $db = "kaijing";
+ $conn = mysqli_connect($server,$user,$pass,$db);
+
+ 	//	$name = "";
+
+ 		$email = mysqli_real_escape_string($conn,$_POST['email']);
+ 	//	$phone = "";
+
+
+
+
+ 	$sql = "INSERT INTO leadinfo VALUES ('$name', '$email','$phone');";
+ 	mysqli_query($conn, $sql);
+
+ ?>
+
+<!-- For Notification  -->
 <script type="text/javascript">
   if ("Notification" in window){
     let ask = Notification.requestPermission();
@@ -2560,6 +2586,8 @@ $(document).ready(function() {
     });
   }
 </script>
+
+<!--  -->
 
   </body>
 
