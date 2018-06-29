@@ -2533,9 +2533,9 @@ $(document).ready(function() {
             <h2>Subscibe Our Newsletter</h2>
         </div>
         <div class="mpopup-main">
-            <form  action="" method="post">
+            <form  id="form1" action="" method="POST">
               <div class="form-group">
-                <p><input type="email" id="email" placeholder="Enter your email" required/></p>
+                <p><input type="email" id="email" name="email" placeholder="Enter your email" required/></p>
                 <p><input type="submit" value="SUBSCRIBE"/></p>
               </div>
             </form>
@@ -2547,22 +2547,22 @@ $(document).ready(function() {
 </div>
 
 <?php
-
+	error_reporting(0);
  $server = "localhost";
  $user = "root";
- $pass = "";
+ $pass = "root";
  $db = "kaijing";
  $conn = mysqli_connect($server,$user,$pass,$db);
 
  	//	$name = "";
 
- 		$email = mysqli_real_escape_string($conn,$_POST['email']);
+ 		$email = ($_POST['email']);
  	//	$phone = "";
 
 
 
 
- 	$sql = "INSERT INTO leadinfo(email) VALUES ('$email');";
+ 	$sql = "INSERT IGNORE INTO leadinfo (email) VALUES ('$email');";
  	mysqli_query($conn, $sql);
 
  ?>

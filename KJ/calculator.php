@@ -35,7 +35,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logos/kaijing white logo.png" > </a>
+      <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="img/logos/kaijing white logo.png" > </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -46,7 +46,7 @@
             <a class="nav-link js-scroll-trigger" href="index.html#services">Services</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+            <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="about.html">About</a>
@@ -126,6 +126,7 @@
 <input type="number" class="form-control" id="capex1" placeholder="In Rupees" name="capex1">
 </div>
 <br>
+<!--<input type="text" value="<?php echo $result; ?>"></input>-->
 <center><button type="submit" class="btn btn-success" onclick="sam()">Submit</button></center>
 <br>
 <!-- <input type="number" class="form-control" id="result" placeholder="In Rupees" name="result"></input> -->
@@ -135,7 +136,7 @@
 
 
         <?php
-
+		error_reporting(0);
         $capex1 = ($_POST['capex1']);
         $time1 = ($_POST['time1']);
         $sel1 =($_POST['sel1']);
