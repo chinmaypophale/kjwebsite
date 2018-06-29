@@ -2533,7 +2533,7 @@ $(document).ready(function() {
             <h2>Subscibe Our Newsletter</h2>
         </div>
         <div class="mpopup-main">
-            <form  action="index.php" method="post">
+            <form  action="" method="post">
               <div class="form-group">
                 <p><input type="email" id="email" placeholder="Enter your email" required/></p>
                 <p><input type="submit" value="SUBSCRIBE"/></p>
@@ -2562,7 +2562,7 @@ $(document).ready(function() {
 
 
 
- 	$sql = "INSERT INTO leadinfo VALUES ('$name', '$email','$phone');";
+ 	$sql = "INSERT INTO leadinfo(email) VALUES ('$email');";
  	mysqli_query($conn, $sql);
 
  ?>
