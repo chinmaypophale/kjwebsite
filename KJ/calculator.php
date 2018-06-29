@@ -43,7 +43,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#services">Services</a>
           </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
@@ -53,14 +53,14 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Articles</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#portfolio">Articles</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="reviews.html">Reviews</a>
           </li>
 
           <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#team">Team</a>
           </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="contactus.html">Contact</a>
