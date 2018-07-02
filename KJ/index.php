@@ -393,7 +393,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate" action="contactinfo.php" method="POST">
+            <form id="contactForm" name="sentMessage" action="contactinfo.php" method="POST">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">

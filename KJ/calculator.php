@@ -94,10 +94,12 @@
 </script> -->
 
 <section>
-  <h2>&emsp;&emsp;&emsp;Want to plan your Finance...?</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+  <h2>Want to plan your Finance...?</h2>
+
+
 
 
 
@@ -148,17 +150,80 @@
           $base=1.08;
           // code...
            $result=$capex1*pow($base,$time1);
-           echo $result;
+           // echo $result;
         }
 
         ?>
 
-<div class="col-md-2">
-
+<div class="col-md-1">
 </div>
 
 
   <!-- <div class="col-md-5"> -->
+<!-- <div class="container"> -->
+        <div class="col-xs-12 col-md-5">
+            <!-- <div class="panel panel-success"> -->
+                <!-- <div class="cnrflash"> -->
+                    <!-- <div class="cnrflash-inner"> -->
+                        <!-- <span class="cnrflash-label">MOST
+                            <br>
+                            POPULR</span> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+              <!-- </div> -->
+
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Your Financial Planning </h3>
+                </div>
+                <div class="panel-body">
+                    <!-- <div class="the-price">
+                        <h1>
+                            $20<span class="subscript">/mo</span></h1>
+                        <small>1 month FREE trial</small>
+                    </div> -->
+                    <table class="table">
+                        <tr>
+                            <td>
+                                Total Savings&emsp;&emsp;<?php echo $result;?>
+                            </td>
+                        </tr>
+                        <tr class="active">
+                            <td>
+                                Yearly Savings &emsp;&emsp;<?php echo ($result/$time1);?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Monthly Savings &emsp;&emsp;<?php echo ($result/($time1*12));?>
+                            </td>
+                        </tr>
+                        <tr class="active">
+                            <td class="text-muted">
+                                *Inflation Rate as 8%
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                            <td>
+                                Custom Cloud Services
+                            </td>
+                        </tr>
+                        <tr class="active">
+                            <td>
+                                Weekly Reports
+                            </td>
+                        </tr> -->
+                    </table>
+                </div>
+                <div class="panel-footer">
+                    <a href="contactus.html" class="btn btn-success" role="button" >Contact Us</a>
+                    To Know More about this Result</div>
+            </div>
+        </div>
+          </div>
+    <!-- </div> -->
+<!-- </div> -->
+
 
   <!-- <form name="sid" id="sid" method="POST" action="calculator.html"> -->
   <!--
@@ -184,11 +249,10 @@
   </div>
   <br> -->
   <!-- <center><button type="submit" class="btn btn-success" onclick="cal()">Submit</button></center> -->
-  <br>
+  <!-- <br> -->
   <!-- <input type="number" class="form-control" id="result" placeholder="In Rupees" name="result"></input> -->
 <!-- </form> -->
-  </div>
-</div>
+  <!-- </div> -->
 <!-- </div> -->
 <!-- </div> -->
 
@@ -254,7 +318,7 @@
   <script src="Styling for EDU/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     if ("Notification" in window){
       let ask = Notification.requestPermission();
       ask.then(permission => {
@@ -271,7 +335,7 @@
         }
       });
     }
-  </script>
+  </script> -->
 
   </body>
   </html>
