@@ -298,7 +298,7 @@
         </div> -->
         <center><h2>Kaijing Calculator</h2></center>
           <center><h5>Confused with managing your wealth ? Calculate it using this Kaijing Wealth Calculator </h5><center>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="calculate.html"> Try this Innovative Calculator</a>
+          <center><h6 class="text-muted">If you could know your future what would you do ..Discover by clicking on the button below.</h6><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="calculate.html"> Try this Innovative Calculator</a>
         <!-- <iframe width="100%" height="646" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=61C7213E1F2D6210%21137&authkey=%21AEzwDrxhLEqxtUU&em=2&wdAllowInteractivity=False&AllowTyping=True&Item='KJ_final_upload'!A1%3AH19&wdInConfigurator=True"></iframe> -->
       </div>
     </div>

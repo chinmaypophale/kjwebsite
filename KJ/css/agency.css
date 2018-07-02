@@ -55,7 +55,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 55px 0;
   }
 }
 
@@ -646,8 +646,24 @@ section#contact {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 105px;
 }
 
+section#team {
+  /* background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; */
+  margin-top: 105px;
+}
+
+section#storyline {
+  /* background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; */
+  margin-top: 85px;
+}
 section#contact .section-heading {
   color: #fff;
 }
