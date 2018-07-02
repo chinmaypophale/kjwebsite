@@ -658,7 +658,7 @@ section#team {
 }
 
 section#storyline {
-  /* background-color: #212529;
+   /* background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; */
@@ -759,6 +759,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
-#storyline{
-	background-color:#eee000;
+#storyline1{
+	background-color:#29e54b;
+    margin-top: 85px;
+}
+
+#storyline2{
+	background-color:#f1f73d;
+    margin-top: 85px;
+}
+#storyline3{
+	background-color:#3acaff;
+  margin-top: 85px;
 }
