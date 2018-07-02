@@ -151,8 +151,7 @@
           // code...
            $result=$capex1*pow($base,$time1);
            // echo $result;
-        }
-
+            }
         ?>
 
 <div class="col-md-1">
@@ -185,17 +184,17 @@
                     <table class="table">
                         <tr>
                             <td>
-                                Total Savings&emsp;&emsp;<?php echo $result;?>
+                                Total Savings&emsp;&emsp;<?php echo '₹&nbsp';echo intval($result);?>
                             </td>
                         </tr>
                         <tr class="active">
                             <td>
-                                Yearly Savings &emsp;&emsp;<?php echo ($result/$time1);?>
+                                Yearly Savings &emsp;&emsp;<?php  echo '₹&nbsp';echo intval($result/$time1); ?>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                Monthly Savings &emsp;&emsp;<?php echo ($result/($time1*12));?>
+                                Monthly Savings &emsp;&emsp;<?php echo '₹&nbsp';echo intval($result/($time1*12));?>
                             </td>
                         </tr>
                         <tr class="active">
