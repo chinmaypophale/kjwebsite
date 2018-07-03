@@ -93,8 +93,11 @@
 
 </script> -->
 
-<section>
+<section id="calculator">
+
 <div class="container">
+
+
   <div class="row">
     <div class="col-md-5">
   <h2>Want to plan your Finance...?</h2>
@@ -215,11 +218,13 @@
                     </table>
                 </div>
                 <div class="panel-footer">
-                    <a href="contactus.html" class="btn btn-success" role="button" >Contact Us</a>
+                  <center>
+                    <a href="contactus.html" class="btn btn-success" role="button" >Contact Us</a><br><br>
                     To Know More about this Result</div>
+                  </center>
             </div>
         </div>
-          </div>
+
     <!-- </div> -->
 <!-- </div> -->
 
@@ -255,8 +260,15 @@
 <!-- </div> -->
 <!-- </div> -->
 
+
+
+</div>
+
   </section>
-  <!-- Footer -->
+
+
+
+    <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">

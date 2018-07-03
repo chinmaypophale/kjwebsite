@@ -59,6 +59,8 @@ section h3.section-subheading {
   }
 }
 
+
+
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -658,6 +660,15 @@ section#team {
 }
 
 section#storyline {
+   /* background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; */
+  margin-top: 85px;
+}
+
+
+section#calculator {
    /* background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
