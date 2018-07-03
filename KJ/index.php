@@ -2513,7 +2513,7 @@ $(document).ready(function() {
     }else{
         setTimeout( function() {
             subscriptionPopup();
-        },2000);
+        },12000);
         $.cookie('popDisplayed', '1', { expires: 7 });
     }
 });
