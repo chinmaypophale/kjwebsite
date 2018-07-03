@@ -118,7 +118,7 @@
   <select class="form-control" id="sel1" name="sel1">
     <option value="Education">Education</option>
     <option value="Marriage">Marriage</option>
-    <option value="Retirement">Retirement</option>
+    <!-- <option value="Retirement">Retirement</option> -->
   </select>
   <br>
 <div class="form-group">

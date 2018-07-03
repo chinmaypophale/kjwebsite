@@ -668,6 +668,15 @@ section#storyline {
 }
 
 
+section#thankyou {
+   /* background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; */
+  margin-top: 150px;
+}
+
+
 section#calculator {
    /* background-color: #212529;
   background-image: url("../img/map-image.png");
