@@ -10,6 +10,11 @@
   <br><br>
   <title>Storyline</title>
 
+  <!-- css of internationalized contact -->
+  <link rel="stylesheet" href="build/css/intlTelInput.css">
+  <link rel="stylesheet" href="build/css/demo.css">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -109,9 +114,19 @@
                   <input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
               </div> -->
 
-                <div class="form-group">
-                <input type="text" name="phone"  class="form-control input-lg" placeholder="Contact No" tabindex="4" required>
-                </div>
+            </head>
+
+          <div class="form-group">
+              <input type="tel"  size="100" minlength="10"  name="phone"  class="form-control input-lg"  placeholder="Contact No" tabindex="4" id="phone" required/>
+              <script src="build/js/intlTelInput.js"></script>
+              <!-- JQuery plugin for contact internationalization -->
+              <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+              <script src="build/js/intlTelInput.js"></script>
+                <!-- // $("#phone").intlTelInput(); -->
+              <script>
+                $("#phone").intlTelInput();
+              </script>
+              </div>
               <div class="form-group">
                   <input type="email" name="email"  class="form-control input-lg" placeholder="Email Address" tabindex="4" required>
               </div>

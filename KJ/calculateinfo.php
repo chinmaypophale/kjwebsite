@@ -3,7 +3,7 @@
 
  $server = "localhost";
  $user = "root";
- $pass = "root";
+ $pass = "";
  $db = "kaijing";
  $conn = mysqli_connect($server,$user,$pass,$db);
 
