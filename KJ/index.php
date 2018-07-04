@@ -402,12 +402,38 @@
                   </div>
                   <div class="form-group">
                     <input class="form-control" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
+</div>
+
+<div class="form-group">
+
+
+
+
+
+
+                    <select class="form-control" name="" >
+
+                      <option value="+91">INDIA</option>
+                      <option value="+9221">UAE</option>
+                      <option value="+9211">QATAR</option>
+                      <option value="+9321">SINGAPORE</option>
+                      <option value="+965341">MALAYSIA</option>
+                      <option value="+96571">UK</option>
+                      <option value="+9781">HONG-KONG</option>
+
+
+                    </select>
                   </div>
                   <div class="form-group">
+
+
                     <input class="form-control" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+
+
                     <p class="help-block text-danger"></p>
                   </div>
+
+
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -421,6 +447,14 @@
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
               </div>
+
+
+
+                <p class="help-block text-danger"></p>
+
+
+
+
             </form>
           </div>
         </div>
@@ -443,7 +477,7 @@
 			</div>
 			<p class="paragraph" ></p>
 			<div class="user-content"></div>
-			<button class="btn btn-info btn-block btn-lg" ></button>
+			<button class="btn btn-info btn-block btn-lg" id="sidbtn"></button>
 		</div>
 	</div>
 	<!-- Popup Plugin Template -->
@@ -514,10 +548,10 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#"  target="_blank">Privacy Policy</a>
+                <a href="privacypolicy.html"  target="_blank">Privacy Policy</a>
               </li>
               <li class="list-inline-item">
-                <a href="#"  target="_blank">Terms of Use</a>
+                <a href="terms.html"  target="_blank">Terms of Use</a>
               </li>
             </ul>
           </div>
@@ -2417,6 +2451,10 @@
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+
+    -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px 6px 6px 6px;
 }
 .mpopup-content {
     position: relative;
@@ -2429,12 +2467,14 @@
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+
 }
 
 .mpopup-head {
     padding: 2px 16px;
-    background-color: #00a1ff;
+    background-color: #000000;
     color: white;
+
 }
 .mpopup-main {padding: 2px 16px;}
 .mpopup-main input[type="text"]{
@@ -2456,6 +2496,7 @@
     padding: 2px 16px;
     background-color: #00a1ff;
     color: #ffffff;
+
 }
 
 /* add animation effects */
@@ -2513,7 +2554,7 @@ $(document).ready(function() {
     }else{
         setTimeout( function() {
             subscriptionPopup();
-        },12000);
+        },2000);
         $.cookie('popDisplayed', '1', { expires: 7 });
     }
 });
