@@ -563,9 +563,11 @@
 
           </div>
           <div class="col-md-4" id="developed">
-            <b>Developed by Dexter_Labs</b>
+          <a href="https://dexterlabsdev.blogspot.com/" target="_blank"><b> Powered by Dexter_Labs</b></a>
           </div>
+
         </div>
+
       </div>
     </footer>
 
