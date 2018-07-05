@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <br><br>
-  <title>Calculator</title>
+  <title>Kaijing Calculator</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -297,10 +297,10 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#"  target="_blank">Privacy Policy</a>
+              <a href="privacypolicy.html"  target="_blank">Privacy Policy</a>
             </li>
             <li class="list-inline-item">
-              <a href="#"  target="_blank">Terms of Use</a>
+              <a href="terms.html"  target="_blank">Terms of Use</a>
             </li>
           </ul>
         </div>
