@@ -674,7 +674,11 @@ section#thankyou {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; */
-  margin-top: 150px;
+  margin-top: 18px;
+  height: 400px;
+  background-color: #212529;
+  text-align: center;
+  padding-top: 175px;
 }
 
 

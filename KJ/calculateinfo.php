@@ -15,7 +15,7 @@
 
 
 
- 	$sql = "INSERT INTO leadinfo (name,email,countrycode,phone) VALUES ('$name', '$email','$countrycode','$phone');";
+ 	$sql = "INSERT IGNORE INTO leadinfo (name,email,countrycode,phone) VALUES ('$name', '$email','$countrycode','$phone');";
  	mysqli_query($conn, $sql);
 
 
