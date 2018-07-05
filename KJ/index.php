@@ -411,23 +411,24 @@
 
 
 
-                    <select class="form-control" name="" >
+                    <select class="form-control" name="countrycode" id="countrycode" >
 
                       <option value="+91">INDIA</option>
-                      <option value="+9221">UAE</option>
-                      <option value="+9211">QATAR</option>
-                      <option value="+9321">SINGAPORE</option>
-                      <option value="+965341">MALAYSIA</option>
-                      <option value="+96571">UK</option>
-                      <option value="+9781">HONG-KONG</option>
+                      <option value="+971">UAE</option>
+                      <option value="+974">QATAR</option>
+                      <option value="+65">SINGAPORE</option>
+                      <option value="+60">MALAYSIA</option>
+                      <option value="+44">UK</option>
+                      <option value="+852">HONG-KONG</option>
 
 
                     </select>
+
                   </div>
                   <div class="form-group">
 
 
-                    <input class="form-control" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" name="phone" type="tel" minlength="10" maxlength="10" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
 
 
                     <p class="help-block text-danger"></p>
