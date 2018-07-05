@@ -11,11 +11,11 @@
 
  		$email = mysqli_real_escape_string($conn,$_POST['email']);
  		$phone = mysqli_real_escape_string($conn,$_POST['phone']);
+    $countrycode = mysqli_real_escape_string($conn,$_POST['countrycode']);
 
 
 
-
- 	$sql = "INSERT INTO leadinfo (name,email,phone) VALUES ('$name', '$email','$phone');";
+ 	$sql = "INSERT INTO leadinfo (name,email,countrycode,phone) VALUES ('$name', '$email','$countrycode','$phone');";
  	mysqli_query($conn, $sql);
 
 
