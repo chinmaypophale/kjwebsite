@@ -8,6 +8,9 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+#developed {
+  padding-top: 5px;
+}
 p {
 
   line-height: 1.75;

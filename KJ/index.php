@@ -558,6 +558,14 @@
             </ul>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-4">
+
+          </div>
+          <div class="col-md-4" id="developed">
+            <b>Developed by Dexter_Labs</b>
+          </div>
+        </div>
       </div>
     </footer>
 
