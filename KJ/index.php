@@ -181,7 +181,7 @@
             </a>
 
             <div class="portfolio-caption">
-              <h4>E-Mails from Mutual Funds</h4>
+              <h4>Right time to Invest in Mutual Funds</h4>
               <p class="text-muted">Explore</p>
             </div>
           </div>
@@ -790,27 +790,10 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Emails from Mutual Funds</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Right time to invest in Mutual Funds</h2>
+                  <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
                   <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt=""> -->
-                  <p>Lot of you have been receiving mails from SEBI or other Mutual fund companies. The E-mails have words like &ldquo;re-categorization and reclassification&rdquo;, &ldquo;changes in fundamental attributes&rdquo; and &ldquo;expense ratio&rdquo; in their subject lines and contain information that is generally difficult to understand.</p>
-<p><strong>Why are you getting these E-mails?</strong></p>
-<p>Over the last few months, the regulator SEBI, brought in a number of rules aimed at making the life of an investor easier. The two relevant ones are:</p>
-<ol>
-<li>Reducing the number of funds and making them easier to understand &amp; compare: SEBI has listed key categories of mutual funds having clear definitions and asked the mutual fund companies to have no more than one fund under each category. There was no standard classification of mutual funds, so SEBI has listed a set of categories with clear definitions and asked mutual fund companies to map their funds to these categories. This will help investors easily understand the investment objective of a fund and also know which funds to compare it with. By forcing a mutual fund company to have only one fund for each category, this will also reduce the number of funds. A more detailed explanation is available in an earlier article.</li>
-<li>Communicating changes in expense ratio to investors: SEBI believed that mutual fund companies were changing this key element without proper communication to investors. It has now become mandatory for mutual fund companies to inform investors by email or SMS if expense ratio changes.</li>
-</ol>
-<p><strong>So what do these emails contain?</strong></p>
-<p>Most of the emails you get will correspond to the first reason above. They will inform you that in line with the SEBI directive:</p>
-<ol>
-<li>The name of a fund has changed</li>
-<li>The investment objective of a fund has changed</li>
-<li>A fund has merged into another</li>
-</ol>
-<p>These emails should stop within the next few weeks. However, the ones relating to expense ratio could become quite regular. <strong>I don&rsquo;t understand them. Should I ignore them?</strong></p>
-<p>While change to the name of a fund is not material, changes to the investment objectives affect how your fund would perform in the future and how it will react to market changes. It may change whether or not the fund aligns to the purpose of your investment.</p>
-<p>So, please do not ignore these emails. Take time to read them. If you don&rsquo;t understand them, please consult your advisor who should explain them to you.</p>
-<p>Here, at Kaijing we work for you to keep you up to date with very simplistic explanation. To know more, contact us.</p>
+                  <p></p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Topic: Lines</li>
