@@ -240,7 +240,7 @@ header.masthead .intro-text .intro-heading {
 
 header.masthead .intro-text .intro-heading #sidbtn{
   border-radius: 10px;
-  opacity: 0.65;
+  opacity: 0.85;
 
 }
 header.masthead .intro-text .intro-lead-in #sidbtn1{
@@ -249,7 +249,7 @@ header.masthead .intro-text .intro-lead-in #sidbtn1{
 }
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 350px;
+    padding-top: 250px;
     padding-bottom: 270px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -260,12 +260,13 @@ header.masthead .intro-text .intro-lead-in #sidbtn1{
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     opacity: inherit;
+    
   }
 }
 /*                           */

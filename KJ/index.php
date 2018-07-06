@@ -95,7 +95,8 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in"><button type="button" id="sidbtn1" disabled><font color="black"><h1>Welcome To KAIJING!</h1></font></button></div>
-          <div class="intro-heading text-uppercase"> <button type="button" id="sidbtn" disabled><font color="black">Thank You For Your First Step</font></button></div>
+          <!-- <div class="intro-heading text-uppercase"> <button type="button" id="sidbtn" disabled><font color="black">Thank You For Your First Step</font></button></div> -->
+          <div class="intro-heading text-uppercase"> <button type="button" id="sidbtn" disabled><font color="black">Kaijing holds a vision to educate, empower and drive you to achieve your fullest financial potential.</font></button></div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
         </div>
       </div>
@@ -330,15 +331,15 @@
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Smart Money Management</h4>
-            <p class="text-muted">Money management is the process of expense tracking, investing, budgeting, banking and evaluating taxes of ones money which is also called investment management</p>
+            <p class="text-muted">Money Management is systematically planning your finances that is your income, expenditure, savings and investments to achieve financial freedom. </p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-child fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Financial Security</h4>
-            <p class="text-muted">Financial security refers to the peace of mind you feel when you aren't worried about your income being enough to cover your expenses.</p>
+            <h4 class="service-heading">Financial Freedom</h4>
+            <p class="text-muted">Financial Freedom is a confident state of mind where your passive income is more than your active income over your expenses and you are happy with it.</p>
           </div>
         </div>
       </div>
@@ -558,6 +559,7 @@
             </ul>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4">
 
